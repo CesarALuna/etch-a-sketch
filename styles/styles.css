@@ -1,0 +1,35 @@
+html {
+  background-color: #105;
+}
+
+.heading {
+  text-align: center;
+  color: #ffe600;
+}
+
+.buttons {
+  text-align: center;
+  padding: 1em;
+  margin-right: auto;
+}
+
+.buttons .button {
+  border-radius: 35%;
+}
+
+.buttons .button:hover {
+  background-color: #ffe600;
+}
+
+.container {
+  background-color: white;
+  display: grid;
+  width: 40%;
+  height: 75%;
+  border: #ffe600 solid 10px;
+  margin: auto;
+}
+
+.pixel {
+  display: flex;
+}
