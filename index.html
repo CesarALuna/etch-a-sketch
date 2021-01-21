@@ -12,13 +12,17 @@
       <h1>Etch-a-Sketch</h1>
     </div>    
     <div class="buttons">
-      <button class="clearScreen" onclick="clearScreen()">Clear</button>
-      <button id="black" class="colorpick">black</button>
-      <button id="colors" class="colorpick">colors</button>
-      <button id="shading" class="colorpick">shading</button>
+      <button class="clear">Clear</button>
+      <button class="color-choice" data-color="black" type="button">Black</button>
+      <button class="color-choice" data-color="rainbow" type="button">Rainbow</button>
+      <button class="color-choice" data-color="gray" type="button">Grays</button>
     </div>
 
-    <div class="container"></div>
+    <div class="container-wrapper">
+      <div class="container">
+      </div>
+    </div>
+
 
     <script src="script/app.js"></script>
   </body>
