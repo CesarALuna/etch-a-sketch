@@ -92,7 +92,7 @@ function buttonStandard() {
 }
 
 // On Page Load - default size
-createGrid(10);
+createGrid(100);
 
 // Event Listeners
 clearButton.addEventListener('click', eraseAllColor);

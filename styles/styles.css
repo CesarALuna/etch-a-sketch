@@ -1,10 +1,19 @@
 html {
-  background-color: #105;
+  background-color: #eee;
 }
 
 .heading {
   text-align: center;
-  color: #ffe600;
+  color: #444;
+}
+
+.sizeSlider {
+  padding: 8px;
+}
+
+.sizeSlider p {
+  font-weight: 600;
+  color:#444;
 }
 
 .buttons {
@@ -18,15 +27,15 @@ html {
 }
 
 .buttons .button:hover {
-  background-color: #ffe600;
+  background-color: #108;
 }
 
 .container {
   background-color: white;
   display: grid;
-  width: 40%;
+  width: 66%;
   height: 75%;
-  border: #ffe600 solid 10px;
+  border: 5px solid #444;
   margin: auto;
 }
 

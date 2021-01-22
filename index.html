@@ -12,6 +12,10 @@
       <h1>Etch-a-Sketch</h1>
     </div>    
     <div class="buttons">
+      <div class="sizeSlider">
+        <p>Pixel Resolution</p>
+        <input type="range" min="8" max="100" value="16" id="sizeRange" class="slider">
+      </div>
       <button class="clear">Clear</button>
       <button class="color-choice" data-color="black" type="button">Black</button>
       <button class="color-choice" data-color="rainbow" type="button">Rainbow</button>
@@ -22,6 +26,7 @@
       <div class="container">
       </div>
     </div>
+
 
 
     <script src="script/app.js"></script>
